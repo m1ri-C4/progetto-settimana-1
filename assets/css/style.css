@@ -8,7 +8,8 @@
 
 body {
     font-family:'Inter', Arial, sans-serif;
-    background-color: rgba(243, 242, 242, 0.979);
+    background-color: #f4f1ec;
+    color:#2b2b2b;
     margin: 0;
 }
 
@@ -20,7 +21,7 @@ header {
     background-image: url('../img/img1.jpg');
     background-size: cover;
     background-position: center;
-    border-bottom: 5px solid gold;
+    border-bottom: 5px solid hsl(45, 90%, 60%);
 }
 
 main {
@@ -38,18 +39,23 @@ h1 {
 }
 
 header p {
-    color: beige;
+    color: #f0e7c8;
     font-style: italic;
     text-align: center;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4 );
 }
 
 .sos {
     background-color: white;
     padding: 32px;
     margin: 24px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #e6e0d3;
     border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+section:first-of-type{
+    margin-top:-70px;
 }
 
 main section h2::before {
@@ -59,15 +65,18 @@ main section h2::before {
 }
 
 h2 {
-    color: #1F3D7A;
+    color: hsl(220, 60%, 25%);
+}
+
+h3{
+    color:hsl(220, 30%, 25%);
 }
 
 img {
     border-radius: 50%;
-    border: 3px solid gold;
+    border: 5px solid  hsl(45, 90%, 60%);
     float: left;
-    width: 30%;
-    margin-right: 20px;
+    max-width: 20%;
 }
 
 .par {
@@ -75,17 +84,18 @@ img {
 }
 
 .par p::first-letter {
-    font-size: 2em;
+    font-size: 4em;
     font-family:'Playfair Display', Georgia, serif; 
-    font-weight: bold;
     color: #1F3D7A;
 }
 
 ul {
-    padding: 0 40px;
+    text-align: center;
 }
 
 nav ul li {
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 8px;
     text-align: center;
     font-weight: bold;
     list-style-type: none;
@@ -94,13 +104,17 @@ nav ul li {
     margin: 4px;
 }
 
-nav a:link,
-a:visited {
-    color: hsl(67, 98%, 26%);
+nav a{
+    text-decoration: none;
+}
+
+nav a:visited{
+     color: white;
 }
 
 nav a:hover {
-    color: white;
+    border:hsl(45, 90%, 60%);
+    background-color:hsl(45, 90%, 60%);
 }
 
 .sos caption { 
@@ -109,9 +123,11 @@ nav a:hover {
      margin: 7px;
      color: hsl(220, 30%, 40%)
 }
+
 .sos table, td, th{
- border: 1px solid black;
+ border-bottom: 1px solid #ece6d8;
  border-collapse: collapse;
+ padding: 15px;
 }
 
 .competenze li:first-child {
@@ -169,17 +185,13 @@ button:hover {
 }
 
 .form input {
-    width: 60%;
+    width: 100%;
 }
 
 .form input[type="checkbox"] {
     width: auto;
 }
 
-.form input:focus,
-textarea:focus {
-    background-color: #232323;
-}
 
 #site-footer {
     background-color: #172136;
