@@ -48,12 +48,13 @@ header p {
     text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
 }
 
-.sos {
+.sos, .projects {
     background-color: white;
     padding: 32px;
     margin: 24px;
     border: 1px solid #e6e0d3;
     border-radius: 8px;
+    line-height: 1.7;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
 }
 
@@ -65,6 +66,7 @@ main section h2::before {
     content: '\2756';
     color: hsl(45, 90%, 50%);
     font-size: 0.8em;
+    margin-right: 10px;
 }
 
 h2 {
@@ -84,11 +86,6 @@ img {
     object-fit: cover;
     margin-right: 30px;
     margin-bottom: 10px;
-}
-
-.chiSono p {
-    line-height: 1.7;
-    margin-bottom: 20 px;
 }
 
 .lettera {
@@ -276,17 +273,17 @@ nav ul li:hover {
     line-height: 2;
 }
 
-.links a {
+.links, .projects a {
     font-weight: bold;
     text-decoration: none;
     padding: 20px;
 }
 
-.links a:visited {
+.links, .projects a:visited {
     color: hsl(220, 60%, 30%);
 }
 
-.links a:hover {
+.links, .projects a:hover {
     color: hsl(220, 60%, 45%);
 }
 
@@ -297,7 +294,8 @@ nav ul li:hover {
     display: block;
 }
 
-.freccia a, .freccia i{
+.freccia a,
+.freccia i {
     text-decoration: underline;
     text-decoration-color: hsl(45, 90%, 50%);
     text-underline-offset: 4px;
@@ -344,12 +342,12 @@ button:hover {
     width: auto;
 }
 
-#site-footer i{
+#site-footer i {
     display: inline-block;
     border: rgba(255, 255, 255, 0.1);
-    background-color:rgba(255, 255, 255, 0.1) ;
-    padding:15px;
-    margin:10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin: 10px;
     border-radius: 50%;
 }
 
