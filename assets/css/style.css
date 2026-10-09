@@ -297,7 +297,7 @@ nav ul li:hover {
     display: block;
 }
 
-.freccia a, i {
+.freccia a, .freccia i{
     text-decoration: underline;
     text-decoration-color: hsl(45, 90%, 50%);
     text-underline-offset: 4px;
@@ -342,6 +342,15 @@ button:hover {
 
 .box {
     width: auto;
+}
+
+#site-footer i{
+    display: inline-block;
+    border: rgba(255, 255, 255, 0.1);
+    background-color:rgba(255, 255, 255, 0.1) ;
+    padding:15px;
+    margin:10px;
+    border-radius: 50%;
 }
 
 #site-footer {
