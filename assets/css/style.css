@@ -129,7 +129,7 @@ nav a:visited {
     color: white;
 }
 
-nav a:hover{
+nav a:hover {
     color: #1F3D7A;
 }
 
@@ -173,13 +173,14 @@ nav ul li:hover {
 .competenze td b {
     font-size: 18px;
 }
-.competenze i{
-    padding-right: 10px; 
+
+.competenze i {
+    padding-right: 10px;
 }
 
 .competenze td p {
     font-style: italic;
-    color: grey ;
+    color: grey;
     line-height: 1.7;
     margin-top: 10px;
     margin-bottom: 0;
@@ -219,24 +220,26 @@ nav ul li:hover {
     width: 75%;
 }
 
-.esperienze table{
-   border-collapse: collapse;
+.esperienze table {
+    border-collapse: collapse;
 }
 
-.esperienze caption{
+.esperienze caption {
     font-style: italic;
     text-align: left;
     margin: 7px;
     color: hsl(220, 30%, 40%);
 }
+
 .esperienze th {
     background-color: #fbf8f1;
     color: hsl(220, 60%, 25%);
     padding: 10px;
-    width:35%;
+    width: 35%;
     text-align: left;
     font-size: 18px;
 }
+
 .esperienze td {
     padding: 15px 10px;
     border-bottom: 1px solid #ece6d8;
@@ -245,6 +248,15 @@ nav ul li:hover {
 
 .links:nth-of-type(odd) {
     background-color: #fbf8f1;
+    border: 1px solid#fbf8f1;
+    border-left: 7px solid hsl(220, 60%, 30%);
+    border-radius: 8px;
+}
+
+.links:nth-of-type(even) {
+    border: 1px solid#fbf8f1;
+    border-left: 7px solid hsl(45, 90%, 50%);
+    border-radius: 8px;
 }
 
 .links:first-of-type h3::after {
@@ -258,13 +270,23 @@ nav ul li:hover {
     font-size: 0.75rem;
 }
 
-.links a:link,
-a:visited {
-    color: blue;
+.links {
+    padding: 20px;
+    line-height: 2;
+}
+
+.links a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.links a:visited {
+    color: hsl(220, 60%, 30%);
 }
 
 .links a:hover {
-    color: red;
+    color: hsl(220, 60%, 45%);
 }
 
 button {
