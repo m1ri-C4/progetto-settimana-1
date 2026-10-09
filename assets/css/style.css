@@ -173,6 +173,9 @@ nav ul li:hover {
 .competenze td b {
     font-size: 18px;
 }
+.competenze i{
+    padding-right: 10px; 
+}
 
 .competenze td p {
     font-style: italic;
