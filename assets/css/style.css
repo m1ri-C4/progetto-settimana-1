@@ -176,6 +176,7 @@ nav ul li:hover {
 
 .competenze i {
     padding-right: 10px;
+    color:hsl(220, 60%, 25%);
 }
 
 .competenze td p {
@@ -295,7 +296,7 @@ button {
     font-weight: bold;
     border-radius: 4px;
     font-family: 'Inter', Arial, sans-serif;
-    width: 28%;
+    width: 15%;
     padding: 9px;
     color: #ffffff
 }
@@ -314,10 +315,9 @@ button:hover {
     width: 100%;
 }
 
-.form input[type="checkbox"] {
+.box {
     width: auto;
 }
-
 
 #site-footer {
     background-color: #172136;
