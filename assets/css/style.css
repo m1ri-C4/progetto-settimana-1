@@ -1,0 +1,177 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(243, 242, 242, 0.979);
+    margin: 0;
+}
+
+header {
+    background-image: url('../img/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 5px solid gold;
+}
+
+main {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    padding-top: 70px;
+    padding-bottom: 33px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+header p {
+    color: #F44A4A;
+    font-style: italic;
+    text-align: center;
+}
+
+.sos {
+    background-color: white;
+    padding: 32px;
+    margin: 24px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+main section h2::before {
+    content: "- ";
+    color: hsl(45, 90%, 50%);
+    font-size: 2em;
+}
+
+h2 {
+    color: #1F3D7A;
+}
+
+img {
+    border-radius: 50%;
+    border: 3px solid gold;
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.par {
+    color: #1F3D7A;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.par p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+ul {
+    padding: 0 40px;
+}
+
+nav ul li {
+    text-align: center;
+    font-weight: bold;
+    list-style-type: none;
+    display: inline-block;
+    padding: 4px;
+    margin: 4px;
+}
+
+nav a:link,
+a:visited {
+    color: hsl(67, 98%, 26%);
+}
+
+nav a:hover {
+    color: white;
+}
+
+.sos table, td, th{
+ border: 1px solid black;
+ border-collapse: collapse;
+}
+
+.competenze li:first-child {
+    font-weight: bold;
+}
+
+.competenze li:nth-child(odd) {
+    line-height: 2;
+    background-color: #F5F7FB;
+}
+
+.links:nth-of-type(odd) {
+    background-color: antiquewhite;
+}
+
+.links:first-of-type h3::after {
+    content: "NEW";
+    display: inline-block;
+    padding: 2px 8px;
+    margin-left: 12px;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 0.75rem;
+}
+
+.links a:link,
+a:visited {
+    color: blue;
+}
+
+.links a:hover {
+    color: red;
+}
+
+button {
+    background-color: hsl(220, 60%, 30%);
+    font-weight: bold;
+    width: 30%;
+    color: #ffffff
+}
+
+button:hover {
+    background-color: hsl(220, 60%, 45%)
+}
+
+.form {
+    color: #1F3D7A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.form input {
+    width: 60%;
+}
+
+.form input[type="checkbox"] {
+    width: auto;
+}
+
+.form input:focus,
+textarea:focus {
+    background-color: #232323;
+}
+
+#site-footer {
+    background-color: #172136;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 30px;
+}

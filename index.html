@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Rossi</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+
+<body>
+
+    <header>
+
+
+        <div>
+            <h1> Mario Rossi</h1>
+            <p><b>Studente Full Stack</b> - corso epicode </p>
+        </div>
+
+        <nav>
+            <ul>
+                <li> <a href="#first"> Chi sono</a> </li>
+                <li> <a href="#second"> Competenze</a> </li>
+                <li> <a href="#third"> Esperienze</a> </li>
+                <li> <a href="#fourth"> Progetti</a> </li>
+                <li> <a href="#fifth"> Contattami</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="sos">
+            <div class="chiSono">
+
+                <h2 id="first"> Chi sono </h2>
+                <img src="https://lorenzogermanibarbershop.it/wp-content/uploads/2023/11/Top-9-Hairstyles-Suitable-for-Square-Face-Shape-%EF%BC%882023%EF%BC%89.jpg"
+                    alt="Foto Mario Rossi">
+
+                <div class="par">
+                    <p>
+                        Mi chiamo Mario rossi e sto imparando a programmare. Studio sviluppo web con <b>Epicode</b> e
+                        ogni
+                        giorno aggiungo
+                        qualcosa di nuovo a questa pagina.
+                    </p>
+                </div>
+
+                <div>
+                    <p>
+                        Vivo a Milano. Ho una formazione precedente in <i>lettere</i> e ora sto cambiando settore.
+                        Cerco un primo ruolo come sviluppatore frontend.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="sos">
+            <h2 id="second">Competenze</h2>
+            <p>Le tecnologie che vedo durante le prime settimane di corso.</p>
+
+            <div class="competenze">
+                <ul>
+                    <li> HTML </li>
+                    <li> CSS </li>
+                    <li> Git e GitHub </li>
+                    <li> Visual Studio Code </li>
+                </ul>
+            </div>
+        </section>
+        <section class="sos">
+            <h2 id="third"> Esperienze </h2>
+            <p> Un riepilogo del mio percorso formativo e lavorativo recente.</p>
+
+
+            <table>
+                <thead>
+                    <caption> Esperienze formative lavorative </caption>
+                    <tr>
+                        <th> Anno </th>
+                        <th> Ruolo </th>
+                        <th> Azienda/Scuola </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 2026 </td>
+                        <td> Studente Full Stack Epicode </td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td> 2024-2025 </td>
+                        <td> Libraio </td>
+                        <td> Libreria Centrale, Milano </td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td> 2018-2022 </td>
+                        <td> Studente di Lettere </td>
+                        <td> Università degli Studi di Milano </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="sos">
+            <h2 id="fourth">Progetti</h2>
+            <p> I lavori fatti durante le prime settimane di corso. </p>
+
+            <article class="links">
+                <h3>Pagina ricetta </h3>
+                <p> Una pagina con titolo, ingredienti e procedura.
+                    Esercizio di murkup semantico applicato a un contenuto reale.</p>
+                <a href="javascript:void(0);"> Vedi su GitHub</a>
+            </article>
+
+            <article class="links">
+                <h3>Card di presentazione</h3>
+                <p> Un biglietto digitale con nome, ruolo e link ai social. </p>
+                <a href="javascript:void(0);"> Vedi su GitHub</a>
+            </article>
+        </section>
+        <section class="sos">
+            <h2 id="fifth">Contattami</h2>
+            <p> Compila il form per scrivermi. Ti rispondo entro 24 ore.</p>
+
+            <div class="form">
+                <form>
+                    <!-- nome -->
+                    <label for="name"> Nome</label> <br>
+                    <input type="text" id="nome" name="nome" placeholder="Il tuo nome" />
+                    <br><br>
+            </div>
+            <div class="form">
+                <!-- email -->
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="tu@esempio.it" />
+                <br><br>
+            </div>
+
+            <div class="form">
+                <!-- motivo del contatto -->
+                <label for="motivo">Motivo del contatto</label><br>
+                <select id="motivo" name="motivo">
+                    <option value="PL">Proposta di lavoro</option>
+                    <option value="PL"></option>
+                </select>
+                <br><br>
+            </div>
+
+            <div class="form">
+                <!-- data -->
+                <label for="data">Data preferita per la risposta</label><br>
+                <input type="date" id="data" name="data" />
+                <br><br>
+            </div>
+
+            <div class="form">
+                <!-- messaggio -->
+                <label for="messaggio">Messaggio</label><br>
+                <textarea id="messaggio" name="messaggio" rows="6" cols="30"
+                    placeholder="Scrivi qui il tuo messaggio..."></textarea>
+                <br><br>
+            </div>
+
+            <div class="form">
+                <!-- checkbox -->
+                <input type="checkbox" id="consenso" name="consenso" />
+                <label for="consenso"> Accetto di essere ricontattato all'indirizzo indicato</label>
+                <br><br>
+            </div>
+
+
+            <!-- pulsante -->
+            <button type="submit">Invia</button>
+        </section>
+        </form>
+    </main>
+
+    <footer id="site-footer">
+        <p> © 2026 Mario Rossi </p>
+    </footer>
+
+</body>
+
+</html>
